@@ -1,0 +1,266 @@
+html{
+	height:100vh;
+}
+
+body{
+	font-family:Lato;
+	color:#fff;
+}
+
+.navbar{
+	background-color: black;
+	min-height:5%;
+	margin:0;
+	border-radius: 0px;
+	border-bottom: 0px solid black;
+}
+
+.navbar-inverse .navbar-brand{
+    color:white;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #ffffff;
+}
+
+#navbar-brand:hover{
+	color:white;
+}
+
+.btn-info{
+	background-color:#000000;
+	border-color:#000000;
+	padding:10px;
+}
+
+.btn-info:hover{
+	border-color:#000000;
+}
+/*nav bar end*/
+
+section{
+	background:url("https://images.unsplash.com/photo-1471614654469-512ee6a4397a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=322bab809d5e040ea3b53739f3112ae9&auto=format&fit=crop&w=750&q=80");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position:center;
+	height:93vh;
+}
+
+
+/* Login Page */
+.loginbody{
+	background-color:#000;
+}
+
+.login{
+	background-color: #500000;
+	height:80vh;
+	width:300px;
+	padding:0;
+	margin: 5% auto;
+	color:white;
+}
+
+.login p{
+	text-align:center;
+}
+
+.logintext{
+	text-align:center;
+	text-shadow:0px 4px 3px rgb(0, 0, 0, 0.3),
+				0px 8px 13px rgb(0, 0, 0, 0.2),
+				0px 18px 23px rgb(0, 0, 0, 0.1);
+}
+
+.logintext h3{
+	font-size:1.5em;
+}
+
+.loginlogo{
+	padding-top:5%;
+	font-size:3em;
+}
+
+.logintext a{
+	color:white;
+	text-decoration: none;
+}
+
+.checkbox{
+	float:left;
+}
+
+.forgot{
+	float:right;
+}
+
+form{
+	width:90%;
+	margin:0 auto;
+}
+
+form p{
+	color:white;
+	font-size: 1em;
+}
+
+.btn {
+	display:block;      
+	width:100%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.signuphr{
+	width:100%;
+	margin-top:45%;
+	margin-bottom:10px;
+}
+
+.loginhr{
+	width:100%;
+	margin-top:85%;
+	margin-bottom:10px;
+}
+/* Login Page End*/
+
+/*Make a Post*/
+.postbody{
+	background-color: black;
+}
+
+.postbody h2{
+	color:white;
+	font-size:2em;
+}
+
+.form-check-label{
+	padding-right:1%;
+}
+
+.textlabel{
+	font-size:1.5em;
+}
+
+.postbody p{
+	margin-bottom: 0;
+}
+
+.form-check-input{
+	padding:2%;
+}
+/*Make a Post End*/
+
+
+#main-content{
+	height: 95vh;
+	text-align: center;
+	padding-top:20%;
+	text-shadow:0px 4px 3px rgb(0, 0, 0, 0.5),
+				0px 8px 13px rgb(0, 0, 0, 0.3),
+				0px 18px 23px rgb(0, 0, 0, 0.1);
+}
+
+h1{
+	font-weight:700;
+	font-size:5em;
+}
+
+h3{
+	font-size:2em;
+}
+
+hr{
+width:40%;
+}
+
+/* Landing page end */
+
+.about{
+	width:95%;
+	margin:0 auto;
+	text-align:center;
+}
+
+h2{
+	text-align:center;
+	font-size:3em;
+	color:black;
+}
+
+p{
+	font-size:1.2em;
+	color:black;
+	padding-bottom:20px;
+}
+
+.container{
+	padding:0;
+}
+
+.popular{
+	background-color:#f7f7f7;
+}
+
+/* Discover*/
+.allartists{
+	background-color:#f7f7f7;
+}
+
+.profile{
+	height:600px;
+	margin-bottom:1%;
+}
+
+.allartists h3, .allartists p{
+	color:black;
+	text-align:center;
+}
+
+.allartists p{
+	margin-bottom:2%;
+}
+
+.social{
+	display: flex;
+	justify-content: space-around;
+	margin-bottom:10%;
+}
+
+.social a{
+	color:black;
+	text-decoration: none;
+}
+/* Discover End */
+
+
+/* Footer */
+footer {
+ background-color: #000;
+ clear:both;
+ height:10%;
+}
+ 
+.footer-content {
+ width:90%;
+ margin:0 auto;
+ height:100%;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+}
+
+.footer-content h4{
+	font-size:1em;
+	display: flex;
+	flex-basis:50%;
+	justify-content: flex-start;
+}
+
+.footer-content a{
+	font-size:1em;
+	text-decoration: none;
+	display: flex;
+	flex-basis:50%;
+	justify-content: flex-end;
+}
